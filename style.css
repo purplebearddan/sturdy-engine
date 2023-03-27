@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(9, 9, 41);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+footer a, footer a:visited, footer a:hover, footer a:active {
+    color: black;
+}
+
+footer a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 12px;
+}
+
+main section{
+    padding: 12px;
+    margin-left: 56px;
+    background-color: black;
+    border: solid white 1px;
+}
+
+footer{
+    background-color: aquamarine;
+    color: black;
+}
+
+
+#home h2{
+    color: aqua;
+}
+
+/* 
+Ugly examples
+
+a[href="#home"]{
+    color: black;
+    background-color: aqua;
+}
+a[href="#about"]{
+    color: black;
+    background-color: limegreen;
+}
+a[href="#contact"]{
+    color: black;
+    background-color: teal;
+} 
+#home{
+    background-color: navy;
+} */
